@@ -4,7 +4,7 @@ using System.Text;
 
 namespace EX01;
 
-class program{
+class Program{
 
 static void Main(string[] args){
 
@@ -12,7 +12,6 @@ Console.OutputEncoding = Encoding.UTF8;
 //Declaração de variaveis 
 string classificacao;
 string Nome;
-string nomeAcento;
 int XP;
 bool deNovo = true;
 string Quer;
@@ -25,8 +24,7 @@ Console.WriteLine(paragrafo);
 while(deNovo == true)
 {
 Console.WriteLine("Qual é seu o nome, heroi? ");
- Nome = Console.ReadLine();
-
+Nome = Console.ReadLine();
 
 Console.WriteLine(paragrafo);
 Console.WriteLine("Quanta experiência você possui?");
